@@ -1,0 +1,81 @@
+{
+   "abstract" : "(EXPERIMENTAL) Write your rules in Perl6 like syntax.",
+   "author" : [
+      "tokuhirom <tokuhirom@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.6.5",
+   "license" : "perl_5",
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Regexp-Rules",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Parse::Keyword" : "0",
+            "parent" : "0",
+            "perl" : "5.014000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "Regexp::Rules" : {
+         "file" : "lib/Regexp/Rules.pm",
+         "version" : "0.01"
+      },
+      "Regexp::Rules::Base" : {
+         "file" : "lib/Regexp/Rules.pm"
+      },
+      "Regexp::Rules::DefaultAction" : {
+         "file" : "lib/Regexp/Rules.pm"
+      },
+      "Regexp::Rules::SexpAction" : {
+         "file" : "lib/Regexp/Rules.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Regexp-Rules/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Regexp-Rules",
+      "repository" : {
+         "url" : "git://github.com/tokuhirom/Regexp-Rules.git",
+         "web" : "https://github.com/tokuhirom/Regexp-Rules"
+      }
+   },
+   "version" : "0.01"
+}

@@ -1,0 +1,45 @@
+---
+abstract: '(EXPERIMENTAL) Write your rules in Perl6 like syntax.'
+author:
+  - 'tokuhirom <tokuhirom@gmail.com>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Regexp-Rules
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Regexp::Rules:
+    file: lib/Regexp/Rules.pm
+    version: 0.01
+  Regexp::Rules::Base:
+    file: lib/Regexp/Rules.pm
+  Regexp::Rules::DefaultAction:
+    file: lib/Regexp/Rules.pm
+  Regexp::Rules::SexpAction:
+    file: lib/Regexp/Rules.pm
+requires:
+  Parse::Keyword: 0
+  parent: 0
+  perl: 5.014000
+resources:
+  bugtracker: https://github.com/tokuhirom/Regexp-Rules/issues
+  homepage: https://github.com/tokuhirom/Regexp-Rules
+  repository: git://github.com/tokuhirom/Regexp-Rules.git
+version: 0.01
